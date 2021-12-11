@@ -7,7 +7,7 @@ public class MainApp {
 
     public static void repeat (String sentence, int times){
         for (int i = 0; i <times; i++) {
-            System.out.println(sentence);
+            System.out.printf("number = %d sentence =  %s \n",i,sentence);
         }
     }
 }
